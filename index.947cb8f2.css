@@ -1,1 +1,30 @@
-body{margin:0;padding:0;overflow-x:hidden}*{box-sizing:border-box}#soda_container{top:0;left:0;height:1000px}canvas{border:1px solid;position:relative;top:500px;left:0;display:block}@media (max-width: 768px){canvas{position:fixed;touch-action:auto!important}}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+* {
+    box-sizing: border-box
+}
+
+#soda_container {
+    top: 0;
+    left: 0;
+    height: 5000px
+}
+
+canvas {
+    border: 1px solid;
+    position: relative;
+    top: calc(50% - 100vh);
+    left: 0;
+    display: block
+}
+
+@media (max-width: 768px) {
+    canvas {
+        position: fixed;
+        touch-action: auto !important
+    }
+}
